@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Om Rubber</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <!-- Welcome Message -->
+    <div class="row align-items-center">
+        <div class="col-1">
+            <h1 class="text-center">Welcome to Om Rubber</h1>
+        </div>
+    </div>
+
+    <br><br><br>
+    <!-- Login -->
+    <div class="container" style="width: 30rem;">
+        <h3>Login</h3>
+        <div class="card">
+            <div class="card-body">
+                <form class="row g-3" id="login">
+                    <div class="col-auto">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Username" value="">
+                    </div>
+                    <div class="col-auto">
+                        <label for="password" class="visually-hidden">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password" value="">
+                    </div>
+                    <br>
+                </form>
+                <div class="col-auto">
+                    <button class="btn btn-primary mb-3" onclick="login()"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
